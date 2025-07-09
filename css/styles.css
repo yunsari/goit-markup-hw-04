@@ -1,0 +1,233 @@
+/* Reset */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Global Styles */
+body {
+  color: black;
+  background-color: #fff;
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Header Styles */
+header {
+  background-color: #fff;
+  display: flex;
+  padding: 20px 0 15px 200px;
+  border-bottom: 1px solid #e7e9fc;
+  flex-direction: row;
+}
+
+.container {
+  margin: 0;
+  padding: 0;
+  min-width: 100vh;
+}
+
+.list-design {
+  display: flex;
+  list-style: none;
+  gap: 50px;
+  padding-left: 100px;
+}
+
+.list-design > li > a {
+  color: #2e2f42;
+  font-weight: 500;
+}
+.second-list-design {
+  display: flex;
+  list-style: none;
+  gap: 50px;
+  padding-left: 300px;
+}
+
+.second-list-design > li > a {
+  color: #434455;
+  font-weight: 400;
+}
+
+.second-list-design > li > a:focus,
+.second-list-design > li > a:hover,
+.list-design > li > a:focus,
+.list-design > li > a:hover {
+  color: #404bbf;
+}
+
+/* Hero Section */
+.hero {
+  padding: 150px 0;
+  text-align: center;
+  background: #2e2f42;
+}
+
+.hero h1 {
+  font-size: 56px;
+  font-weight: 700;
+  margin: 0 auto 30px;
+  color: #fff;
+  line-height: 1.2;
+  letter-spacing: 2;
+  width: 496px;
+  top: 260px;
+  left: 472px;
+}
+
+.btn {
+  background-color: #4d5ae5;
+  border: none;
+  color: white;
+  cursor: pointer;
+  width: 169px;
+  top: 428px;
+  left: 636px;
+  border-radius: 4px;
+  padding: 16px 32px 16px 32px;
+}
+
+.btn:focus,
+.btn:hover {
+  background-color: #404bbf;
+}
+
+.section {
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  vertical-align: middle;
+}
+
+/* First Section */
+.first-section {
+  background-color: #fff;
+  padding: 120px 100px;
+}
+
+.first-section-list {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  gap: 8px;
+  letter-spacing: 2;
+}
+
+.card-bottom h3,
+.portfolio-card h3,
+.first-section-list > li > h3 {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.card-bottom p,
+.first-section-list > li > p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 2;
+}
+
+/* Our Team */
+.team {
+  background-color: #f4f4fd;
+  text-align: center;
+  letter-spacing: 2;
+  line-height: 1.25;
+  padding: 120px 0;
+}
+
+.portfolio h2,
+.team h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.25;
+  letter-spacing: 2;
+  text-align: center;
+}
+
+.team-list {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  margin-top: 5%;
+  gap: 40px;
+  justify-content: center;
+}
+
+.card {
+  background-color: #fff;
+  box-shadow: 0 5px 15px #2e2f4229;
+}
+
+.card-bottom {
+  padding: 10px;
+  border-radius: 3px;
+}
+
+.portfolio {
+  background-color: #fff;
+  letter-spacing: 2;
+  line-height: 2;
+  padding: 120px 20px;
+}
+
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+  padding: 5%;
+}
+
+.portfolio-list li {
+  width: 360px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+}
+
+.portfolio-list li img {
+  display: block;
+  width: 100%;
+}
+
+.portfolio-card-bottom {
+  border-bottom: 1px solid #e7e9fc;
+  border-left: 1px solid #e7e9fc;
+  border-right: 1px solid #e7e9fc;
+  padding: 32px 16px 32px 16px;
+}
+
+/* Footer */
+.footer {
+  background-color: #2e2f42;
+  padding: 100px 0;
+  padding-left: 156px;
+}
+
+.footer p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 2;
+  color: #f4f4fd;
+  width: 264px;
+  top: 3128px;
+  left: 156px;
+  display: flex;
+  flex-direction: row;
+}
