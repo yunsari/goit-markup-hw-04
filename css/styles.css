@@ -279,6 +279,126 @@ header {
   height: 4px;
 }
 
+.icon-box {
+  width: 264px;
+  height: 112px;
+  opacity: 1;
+  border-width: 1px;
+  background-color: #f4f4fd;
+  border: 1px solid rgba(142, 143, 153, 1);
+  margin-bottom: 10px;
+  border-radius: 4px;
+  border-width: 1px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.anten {
+  width: 60px;
+  height: 64px;
+  left: 2.14px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.anten-point {
+  width: 7px;
+  height: 7px;
+  top: 63px;
+  left: 123px;
+  position: absolute;
+}
+
+.clock-icon {
+  width: 62px;
+  height: 64px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.clock-firstline {
+  width: 3px;
+  height: 5px;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.clock-secondline {
+  width: 5px;
+  height: 3px;
+  position: absolute;
+  top: 50%;
+  left: 42%;
+  transform: translate(-50%, -50%);
+}
+
+.clock-secondlinetwo {
+  width: 5px;
+  height: 3px;
+  position: absolute;
+  top: 50%;
+  left: 58%;
+  transform: translate(-50%, -50%);
+}
+
+.computer-icon {
+  width: 65px;
+  height: 50px;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+.sutunbir {
+  width: 2.132216215133667px;
+  height: 3.1983120441436768px;
+  top: 60px;
+  left: 113px;
+  position: absolute;
+}
+
+.sutuniki {
+  position: absolute;
+  width: 2.1322195529937744px;
+  height: 2.132209062576294px;
+  top: 61px;
+  left: 120px;
+}
+
+.sutunuc {
+  width: 2.132216215133667px;
+  height: 9.594985008239746px;
+  top: 55px;
+  left: 128px;
+  position: absolute;
+}
+
+.sutundort {
+  position: absolute;
+  width: 2.1322126388549805px;
+  height: 5.330534934997559px;
+  top: 59px;
+  left: 137px;
+}
+
+.astronot {
+  position: absolute;
+  width: 50.1336555480957px;
+  height: 55.46323013305664px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .portfolio {
   background-color: #fff;
   letter-spacing: 2;
