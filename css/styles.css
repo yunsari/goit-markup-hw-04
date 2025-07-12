@@ -42,12 +42,14 @@ header {
   list-style: none;
   gap: 50px;
   padding-left: 100px;
+  position: relative;
 }
 
 .list-design > li > a {
   color: #2e2f42;
   font-weight: 500;
 }
+
 .second-list-design {
   display: flex;
   list-style: none;
@@ -189,7 +191,7 @@ header {
 }
 
 .card {
-  background-color: #fff;
+  background: #fff;
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
   box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
   box-shadow: 0px 1px 1px 0px rgba(46, 47, 66, 0.16);
@@ -198,9 +200,83 @@ header {
   border-bottom-left-radius: 4px;
 }
 
+.card img {
+  background-image: cover;
+}
+
 .card-bottom {
   padding: 10px;
   border-radius: 3px;
+}
+
+.ellipse {
+  width: 40px;
+  height: 40px;
+  background: rgba(77, 90, 229, 1);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.ellipse-container {
+  display: flex;
+  margin: 10px;
+  width: 232;
+  height: 40;
+  gap: 24px;
+}
+
+.instagram-cerceve {
+  width: 16px;
+  height: 16px;
+  position: absolute;
+}
+
+.instagram-circle {
+  width: 9px;
+  height: 9px;
+  position: absolute;
+}
+
+.instagram-point {
+  width: 2px;
+  height: 2px;
+  top: 16px;
+  left: 23px;
+  opacity: 1;
+
+  position: absolute;
+}
+
+.twitter-icon {
+  width: 16px;
+  height: 13px;
+}
+
+.facebook-icon {
+  width: 9px;
+  height: 16px;
+}
+
+.linkedinl {
+  width: 4px;
+  height: 11px;
+  top: 5.32px;
+  left: 0.26px;
+}
+
+.linkedinn {
+  width: 11px;
+  height: 11px;
+  top: 5.05px;
+  left: 5.66px;
+}
+
+.linkedinpoint {
+  width: 4px;
+  height: 4px;
 }
 
 .portfolio {
